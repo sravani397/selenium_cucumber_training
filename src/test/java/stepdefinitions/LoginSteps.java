@@ -23,8 +23,8 @@ public class LoginSteps {
 
     @When("user enters username and password")
     public void user_enters_username_and_password() {
-        driver.findElement(By.id("user-name")).sendKeys("");
-        driver.findElement(By.id("password")).sendKeys("");
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
         System.out.println("user enter");
     }
 
